@@ -36,6 +36,8 @@ int main() {<br>
   **Output:-**<br>
   The linked list is: 9 2 7 1 3<br>
   --------------------------------<br>
+	<br>
+	<br>
    **2. C++ program to implement insertion and deletion node in front position**<br>
    #include<iostream><br>
 #include<cstdlib><br>
