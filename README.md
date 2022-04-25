@@ -227,3 +227,16 @@ Enter your choice:4<br>
 
 --------------------------------<br>
    https://www.iare.ac.in/sites/default/files/DAA%20%20Notes%20by%20Dr.%20L.%20V.%20Narasimha%20Prasad_0.pdf<br>
+1.	Write a C++ program to implement singly linked list.
+2.	Write a C++ program to split the linked list into two halves such that the element ‘e’ should be the first element of second list.
+3.	Find the subset of a given set S = {S1,S2,S3,………,Sn} OF ‘n’ positive integers whose sum is equal to a given positive integer d.
+4.	Write a C++ program to implement binary tree and binary search tree.
+5.	Write a program to create a WAP to store a k keys into an array of size n at the location compute using a hash function, loc=key%n, where k<=n and key takes 	      values from [1 to m], m>n. Handle the collision using Linear Probing technique.
+6.	Write a C++ program to implement doubly linked list.
+7.	Write a program to insertion into an AVL tree and deletion from an AVL tree.
+8.	Finding minimum and maximum from given unsorted array by using divide conquer method.
+9.	Crete a program to merge sort using divide and conquer array.
+10.	Write a C++ program for solving the N-Queen’s Problem using backtracking.
+11.	Write a program to implement breadth first search for undirected graph (BFS).
+12.	Write a program to implement depth first search for undirected graph (DFS).
+
