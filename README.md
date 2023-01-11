@@ -239,4 +239,173 @@ Enter your choice:4<br>
 10.	Write a C++ program for solving the N-Queen’s Problem using backtracking.
 11.	Write a program to implement breadth first search for undirected graph (BFS).
 12.	Write a program to implement depth first search for undirected graph (DFS).
+<br>
+<br>
+<br>
+AI:-
+1.Write a python program to find square root
+number = int(input("enter a number: "))
+sqrt = number ** 0.5
+print("square root:", sqrt)
+Output:-
+enter a number: 100
+square root: 10.0
+2.Python program to solve quadratic equations
+import cmath
+x = 1
+y = 4
+z = 5
+w = (y**2) - (4xz)
+sol1 = (-y-cmath.sqrt(w))/(2x)
+sol2 = (-y+cmath.sqrt(w))/(2x)
+print('The solution are {0} and {1}'.format(sol1,sol2))
+Output:-
+The solution are (-2-1j) and (-2+1j)
+3.Program to swap two variables using python
+x = 5
+y = 16
+temp = x
+x = y
+y = temp
+print('The value of x after swapping: {}'.format(x))
+print('The value of y after swapping: {}'.format(y))
+Output:-
+The value of x after swapping: 16
+The value of y after swapping: 5
+4.python program to check armstrong number
+num = int(input("Enter a number: "))
+sum = 0
+temp = num
+while temp > 0
+: digit = temp % 10
+sum += digit ** 3
+temp //= 10
+if num == sum:
+print(num,"is an Armstrong number")
+else:
+print(num,"is not an Armstrong number")
+Output:-
+Enter a number: 2
+2 is not an Armstrong number
+Enter a number: 1
+1 is an Armstrong number
+5.find GCD and HCF
+def compute_hcf(x, y):
+if x > y:
+smaller = y else:
+smaller = x
+for i in range(1, smaller+1):
+if((x % i == 0) and (y % i == 0)):
+hcf = i
+return hcf
+num1 = 54
+num2 = 24
+print("The H.C.F. is", compute_hcf(num1, num2))
+Output:-
+The H.C.F. is 6
+6.find LCM
+def compute_lcm(x, y):
+if x > y:
+greater = x
+else:
+greater = y
+
+while(True):<br>
+   if((greater % x == 0) and (greater % y == 0)):<br>
+       lcm = greater<br>
+       break<br>
+   greater += 1<br>
+return lcm<br>
+num1 = 54
+num2 = 24
+print("The L.C.M. is", compute_lcm(num1, num2))
+Output:-
+The L.C.M. is 216
+7.add two two matrix
+X = [[12,7,3],
+[4 ,5,6],
+[7 ,8,9]]
+
+Y = [[5,8,1],
+[6,7,3],
+[4,5,9]]
+
+result = [[0,0,0],
+[0,0,0],
+[0,0,0]]
+for i in range(len(X)):
+for j in range(len(X[0])):
+result[i][j] = X[i][j] + Y[i][j]
+
+for r in result:
+print(r)
+output:- [17, 15, 4]
+[10, 12, 9]
+[11, 13, 18]
+
+
+8.covert a string data and time
+from datetime import datetime
+
+my_date_string = "Mar 11 2011 11:31AM"
+
+datetime_object = datetime.strptime(my_date_string, '%b %d %Y %I:%M%p')
+
+print(type(datetime_object))
+print(datetime_object)
+Output:-
+<class 'datetime.datetime'>
+2011-03-11 11:31:00
+
+9.apend a file
+file1 = open("myfile.txt", "w")
+L = ["This is Delhi \n", "This is Paris \n", "This is London"]
+file1.writelines(L)
+file1.close()
+
+Append-adds at last
+file1 = open("myfile.txt", "a") # append mode
+file1.write("Today \n")
+file1.close()
+
+file1 = open("myfile.txt", "r")
+print("Output of Readlines after appending")
+print(file1.read())
+print()
+file1.close()
+
+Write-Overwrites
+file1 = open("myfile.txt", "w") # write mode
+file1.write("Tomorrow \n")
+file1.close()
+
+file1 = open("myfile.txt", "r")
+print("Output of Readlines after writing")
+print(file1.read())
+print()
+file1.close()
+Output:-
+Output of Readlines after appending
+This is Delhi
+This is Paris
+This is LondonToday
+
+Output of Readlines after writing
+Tomorrow
+10.reverse a number
+num = 1234
+reversed_num = 0
+
+while num != 0:
+digit = num % 10
+reversed_num = reversed_num * 10 + digit
+num //= 10
+
+print("Reversed Number: " + str(reversed_num))
+output:-*
+Reversed Number: 4321
+11.program to compute a power of a number.
+
+<br>
+<br>
 
